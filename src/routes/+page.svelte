@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<!-- App.svelte -->
+<script>
+	import { Accordion, AccordionItem, Column, Content, Grid, Row } from 'carbon-components-svelte';
+</script>
+
+<Content>
+    <Grid>
+      <Row>
+        <Column>
+          <h1>Welcome</h1>
+        </Column>
+      </Row>
+    </Grid>
+  </Content>
