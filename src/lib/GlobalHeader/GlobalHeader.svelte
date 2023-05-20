@@ -21,8 +21,7 @@
 	import Fade from 'carbon-icons-svelte/lib/Fade.svelte';
 
 	import UserAvatarFilledAlt from 'carbon-icons-svelte/lib/UserAvatarFilledAlt.svelte';
-	import DarkModeGlobalAction from './darkModeGlobalAction.svelte';
-
+	import ThemeToggleGlobalAction from '../ThemeToggleGlobalAction/ThemeToggleGlobalAction.svelte';
 
 	let isSideNavOpen = false;
 	let isOpen1 = false;
@@ -45,7 +44,7 @@
 		<HeaderNavItem href="/" text="Link 4" />
 	</HeaderNav>
 	<HeaderUtilities>
-        <DarkModeGlobalAction/>
+		<ThemeToggleGlobalAction />
 		<HeaderAction bind:isOpen={isOpen1} icon={UserAvatarFilledAlt} closeIcon={UserAvatarFilledAlt}>
 			<HeaderPanelLinks>
 				<HeaderPanelDivider>Switcher subject 1</HeaderPanelDivider>

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { HeaderGlobalAction, Theme } from 'carbon-components-svelte';
-	import { Carbon, Moon, Sun } from 'carbon-icons-svelte';
+	import { Moon, Sun } from 'carbon-icons-svelte';
 	import type { CarbonTheme } from 'carbon-components-svelte/types/Theme/Theme.svelte';
 
 	function isLight(theme: CarbonTheme) {
