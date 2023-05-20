@@ -11,13 +11,15 @@
 		return theme.substring(0, 2).toUpperCase();
 	}
 
-	const toggleTheme = () => {
-		theme = theme === 'g90' ? 'white' : 'g90';
-	};
+	function toggleTheme() {
+		theme = theme === darkTheme ? lightTheme : darkTheme;
+	}
+
+	const darkTheme = 'g90';
+	const lightTheme = 'white';
 
 	let theme: CarbonTheme = 'white';
 	$: themeIcon = isLight(theme) ? Moon : Sun;
-	$: funnyThem = theme + 'fg' + inter(theme);
 </script>
 
 <Theme bind:theme persist persistKey="__carbon-theme" />

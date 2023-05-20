@@ -46,7 +46,6 @@
 	</HeaderNav>
 	<HeaderUtilities>
         <DarkModeGlobalAction/>
-		<!-- <HeaderGlobalAction aria-label="NightMode" icon={darkModeIcon} on:click={toggleNightMode}/> -->
 		<HeaderAction bind:isOpen={isOpen1} icon={UserAvatarFilledAlt} closeIcon={UserAvatarFilledAlt}>
 			<HeaderPanelLinks>
 				<HeaderPanelDivider>Switcher subject 1</HeaderPanelDivider>
